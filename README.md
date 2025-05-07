@@ -1,36 +1,93 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Modern Portfolio Website with Next.js 15
 
-## Getting Started
+## Overview
+Modern portfolio website built with Next.js 15 to showcase projects and professional skills.
 
-First, run the development server:
+## Technical Stack
+
+### Core Technologies
+- **Next.js 15**
+    - Server-side rendering (SSR)
+    - App Router architecture
+- **React 19**
+    - Server Components
+    - Client Components
+
+### Styling & UI
+- **TailwindCSS**
+    - Utility-first CSS framework
+    - Responsive design
+- **Framer Motion**
+    - Animation library
+    - Smooth transitions
+
+### Development Tools
+- **TypeScript**
+    - Type safety
+    - Enhanced development experience
+
+## Key Features
+
+### 1. Performance Optimization
+- Automatic image optimization
+- Code splitting
+- Server-side rendering
+
+### 2. SEO Features
+- Meta tags optimization
+- Structured data
+- Sitemap generation
+
+### 3. User Interface
+- Responsive design
+- Dark/Light mode
+- Smooth animations
+
+## Deployment Options
+- Vercel (Recommended)
+- Netlify
+- Custom server
+
+## Target Audience
+- Professionals
+- Developers
+- Creative individuals
+- Potential employers
+
+## Benefits
+
+### Professional Showcase
+- Portfolio projects
+- Skills display
+- Work experience
+
+### Technical Advantages
+- Fast loading
+- SEO friendly
+- Modern architecture
+
+### User Experience
+- Intuitive navigation
+- Responsive design
+- Interactive elements
+
+## Development
 
 ```bash
 npm run dev
 # or
-yarn dev
-# or
-pnpm dev
-# or
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Open [http://localhost:3000](http://localhost:3000) to view the project.
 
 ## Learn More
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Learn Next.js](https://nextjs.org/learn)
+- [Next.js GitHub Repository](https://github.com/vercel/next.js)
 
-To learn more about Next.js, take a look at the following resources:
+## Deployment
+Deploy easily using [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+See [deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
