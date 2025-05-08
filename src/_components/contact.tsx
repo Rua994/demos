@@ -28,10 +28,10 @@ export default function Contact() {
       <SectionHeading title="Contact Me" />
 
       <Card className="max-w-[600px] mx-auto p-8">
-        <p className="text-gray-700 text-center mb-8">
+        <p className="text-gray-900 dark:text-gray-300 text-center mb-8">
           Please contact me directly at{" "}
           <a
-            className="underline"
+            className="underline text-gray-900 dark:text-gray-100"
             href="mailto:example@gmail.com"
           >
             example@gmail.com

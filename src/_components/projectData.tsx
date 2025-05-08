@@ -37,7 +37,7 @@ export default function ProjectData({
         scale: scrollYProgress,
         opacity: scrollYProgress,
       }}
-      className="group relative bg-gray-100 w-full border border-black/5 rounded-lg overflow-hidden transition-all hover:bg-gray-200"
+      className="group relative bg-gray-100 dark:bg-gray-800 w-full border border-black/5 rounded-lg overflow-hidden transition-all hover:bg-gray-200 dark:hover:bg-gray-700"
     >
       <div className={`flex flex-col sm:flex-row items-center justify-between p-4 sm:p-8`}>
         <div
@@ -47,13 +47,17 @@ export default function ProjectData({
         >
           <div className="flex items-center gap-3 mb-2">
             <div>
-              <h3 className="text-xl sm:text-2xl font-semibold">{title}</h3>
-              <p className="text-sm text-gray-600">
+              <h3 className="text-xl sm:text-2xl font-semibold text-gray-900 dark:text-gray-100">
+                {title}
+              </h3>
+              <p className="text-sm text-gray-600 dark:text-gray-400">
                 {location} • {date}
               </p>
             </div>
           </div>
-          <p className="mt-2 leading-relaxed text-gray-700 text-sm">{description}</p>
+          <p className="mt-2 leading-relaxed text-gray-900 dark:text-gray-300 text-sm">
+            {description}
+          </p>
           <ul className="flex flex-wrap gap-2 mt-4">
             {tags.map((tag, index) => (
               <li key={index}>

@@ -40,7 +40,7 @@ export default function Skills() {
       className="relative py-20"
       id="skills"
     >
-      <div className="absolute inset-0 bg-gradient-to-b from-gray-50 to-transparent"></div>
+      <div className="absolute inset-0 bg-gradient-to-b from-gray-50 dark:from-gray-900 to-transparent"></div>
       <div className="relative max-w-[53rem] mx-auto px-4">
         <SectionHeading title="My Skills" />
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -54,18 +54,18 @@ export default function Skills() {
                 once: true,
               }}
               custom={index}
-              className="bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition-all group"
+              className="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-sm hover:shadow-md transition-all group"
             >
               <div className="flex justify-between items-center mb-2">
-                <h3 className="font-medium text-gray-900">{skill.name}</h3>
-                <span className="text-sm text-gray-600">{skill.level}%</span>
+                <h3 className="font-medium text-gray-900 dark:text-gray-100">{skill.name}</h3>
+                <span className="text-sm text-gray-600 dark:text-gray-400">{skill.level}%</span>
               </div>
               <Progress
                 value={skill.level}
                 className="h-2"
               />
               {skill.description && (
-                <p className="mt-2 text-sm text-gray-600 opacity-0 group-hover:opacity-100 transition-opacity">
+                <p className="mt-2 text-sm text-gray-600 dark:text-gray-400 opacity-0 group-hover:opacity-100 transition-opacity">
                   {skill.description}
                 </p>
               )}
